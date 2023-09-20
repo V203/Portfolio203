@@ -20,7 +20,7 @@ const Sparkles = () => {
 
 
             setPosition({ x: newX, y: newY });
-        }, 1160);
+        }, 2160);
 
         return () => clearInterval(intervalId)
     }, [])
