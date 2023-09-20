@@ -1,0 +1,113 @@
+.blueDop {
+  backdrop-filter: blur(5px);
+  background-color: #050317;
+  /* background-color: #ffffff; */
+  border: 1px solid blue;
+  color: aliceblue;
+  padding: 1em;
+  margin: .5em;
+  box-shadow: 1px 1px 5px inset blue, 1px 1px 3px inset white;
+
+}
+
+
+.blueDop2 {
+  backdrop-filter: blur(5px);
+  background-color: #050317;
+  /* background-color: #ffffff; */
+  border: 3px solid blue;
+  color: aliceblue;
+
+  box-shadow: 1px 2px 3px blue, 1px 1px 5px white, 2px 1px 9px blue;
+
+}
+
+
+
+.blueDop3 {
+  backdrop-filter: blur(5px);
+  background-color: #050317;
+  /* background-color: #ffffff; */
+  border: 2px solid blue;
+  border-radius: 8px;
+  color: aliceblue;
+
+  box-shadow: -3px -2px 6px blue, 1px 1px 5px white, 6px 4px 5px blue;
+
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.illuminate:hover {
+  transform: scalex(1.1);
+  cursor: zoom-in;
+  transition: 0.5ms ease-in;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0px 0px 6px #cbc7c45e;
+    box-shadow: 0px 0px 6px #e0fe00a2;
+  }
+
+  to {
+    box-shadow: 0px 0px 10px #cbcac4ae;
+    box-shadow: 0px 0px 11px #fe5500;
+  }
+}
+
+.glow {
+  animation: glow 1.9s ease-in-out alternate-reverse infinite;
+}
+
+.logoStyle {
+
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  border-style: solid 12px;
+  border: 15px dashed blue;
+  border: 10px double rgba(18, 41, 214, 0.755);
+  border-radius: 50%;
+  text-align: center;
+  text-shadow: 2px 2px 2px blue;
+
+  font-family: monospace;
+  color: rgb(0, 0, 0);
+}
+
+.overLay {
+  background-color: #5449bb8b;
+  /* filter: blur(2px); */
+  /* opacity: 0.2; */
+}
+
+.rotScale {
+  animation: rotScale 13s ease-in-out forwards infinite;
+}
+
+
+.shade{
+  width: 20px;
+  height: 120px;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  opacity: .5;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 1px 2px 3px inset #fe5500, 1px 2px 3px inset white;
+}
+
+
+@keyframes rotaeAndScale {}
